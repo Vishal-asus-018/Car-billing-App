@@ -8,8 +8,8 @@ function App() {
   const navigate = useNavigate();
   return (
     <Routes>
-      {/* <Route path="/" exact element={<h1><Home /></h1>} /> */}
-      <Route path="/" element={<CarDealerForm />} />
+      <Route path="/" exact element={<h1><Home /></h1>} />
+      <Route path="/bill" element={<CarDealerForm />} />
       <Route path="/invoice" element={<Invoice />} />
       <Route path="*" element={
         <>
