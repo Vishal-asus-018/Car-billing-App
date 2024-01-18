@@ -80,10 +80,10 @@ const Invoice = () => {
                                 <Grid item container columns={2} style={{ width: '50%', display: 'flex', flexDirection: 'column' }}>
                                     <Typography> : {selectedCar.name}</Typography>
                                     <Typography> : {carCost}</Typography>
-                                    <Typography> : {fixedCharges.tcsCharges ? '11,000' : ''}</Typography>
-                                    <Typography> : {fixedCharges.rtoCharges ? '1,13,990' : ''}</Typography>
-                                    <Typography> : {additionalCharges.insurance ? '47300' : ''}</Typography>
-                                    <Typography> : {additionalCharges.additionalAccessories ? '15000' : ''}</Typography>
+                                    <Typography> : {fixedCharges.tcsCharges ? '11,000' : 'Nil'}</Typography>
+                                    <Typography> : {fixedCharges.rtoCharges ? '1,13,990' : 'Nil'}</Typography>
+                                    <Typography> : {additionalCharges.insurance ? '47300' : 'Nil'}</Typography>
+                                    <Typography> : {additionalCharges.additionalAccessories ? '15000' : 'Nil'}</Typography>
                                     <Typography> : {dealerDiscount}</Typography>
                                     <Typography> : {totalCost}</Typography>
                                 </Grid>
