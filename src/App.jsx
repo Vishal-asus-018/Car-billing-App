@@ -1,7 +1,7 @@
 import { Route, Routes, useNavigate } from "react-router-dom"
 import CarDealerForm from "./components/Form/DealerForm"
 import Invoice from "./components/Invoice/Invoice"
-// import Home from './components/Home/Home'
+import Home from './components/Home/Home'
 import { Button, Typography } from "@mui/material"
 
 function App() {
